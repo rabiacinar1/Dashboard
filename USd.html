@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0 ;
+            padding: 0;
+            display: flex;
+            box-sizing: border-box;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+          
+        }
+        .container {
+            display: flex;
+            background-color: rgb(59, 64, 64);
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            height: 100px;
+            flex-direction: column;
+        }
+        .top {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         gap: 9px;
+         
+        }
+       .top .dolar {
+        color: lightgray;
+        font-size:28px;
+       }
+       .top .iki {
+        font-size: 40px;
+        color: white;
+       }
+       .top .uc{
+        font-size: 28px;
+        color: lightgrey;
+       }
+.bottom { 
+    display: flex;
+    color: gray;
+    gap: 10px;
+    margin: 10px;
+
+}
+.USD {
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class="top">
+        <span class="dolar">$</span>
+        <span class="iki">1324</span>
+        <span class="uc">26</span>
+    </div>
+        <div class="bottom">
+            <span class="USD"> USD</span>
+            <span>EUR</span>
+            <span>BTC</span>
+            <span>ETH</span>
+        </div>
+    </div>
+    
+</body>
+</html>
